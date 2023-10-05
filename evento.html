@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/registar-despesa.css">
     <link rel="stylesheet" href="./css/cadastrar-event.css">
+   
+    <link rel="stylesheet" href="/css/modal.css">
     <link rel="stylesheet" href="css/evento.css">
+
     <link rel="stylesheet" href="./css/style.css">
+   
 
     <title>Evento</title>
 </head>
@@ -128,7 +132,7 @@
                     </div>
         
         
-                    <div>
+                    <div class="comprovativo">
                         <button>inserir comprovativo</button>
                         <input type="file" name="" placeholder="0,00" style="display: none;">
                     </div>
@@ -144,30 +148,125 @@
 
 
 
-           <div class="box box-border second">
-            <div>
-                <button>Alterar Data</button>
-            </div>
-
-
-            <div>
-                <button> Alterar Nota</button>
-               
-            </div>
-
-
-            <div>
+           <div class="box-border ">
+                <div>
+                    <div class="modal-box">
+                        <button class="modal-btn__open open-btn" id="">Historico</button>
+                    
+                        <!-- modal password-->
+                        <div id="myModal" class="modal modal-password__box">
+                            <div class="modal-content">
+            
+                                <span class="modal-btn__close close-modal"></span>
+            
+                                <div class="modal-box-content">
+                                    <h3>Historico de Alteração de Palavra-passe</h3>
+                                    
+                                    <section class="modal-box-section">
                 
-                <button>Baixar PDF</button>
-            </div>
+                                        <ul>
+                                            <li><p>acesso 1</p></li>
+                                            <li><p>acesso 2</p></li>
+                                            <li><p>acesso 3</p></li>
+                                            <li><p>acesso 4</p></li>
+                                            <li><p>acesso 5</p></li>
+                                            <li><p>acesso 6</p></li>
+                                        </ul>
+                            
+                                    
+                                    </section>
+                                </div>
+                            </div>
+            
+                        </div>
+                            
+                        <div id="myOverlay" class="overlay"></div>
+                    </div>
+                  
+                </div>
 
 
-            <div>
+                <div>
+                    <div class="modal-box">
+                        <button class="modal-btn__open open-btn" id="">Historico</button>
+                    
+                        <!-- modal password-->
+                        <div id="myModal" class="modal modal-password__box">
+                            <div class="modal-content">
+            
+                                <span class="modal-btn__close close-modal"></span>
+            
+                                <div class="modal-box-content">
+                                    <h3>Historico de Alteração de Palavra-passe</h3>
+                                    
+                                    <section class="modal-box-section">
                 
-                <button type="submit"> Aceitar Evento</button>
-            </div>
+                                        <ul>
+                                            <li><p>acesso 1</p></li>
+                                            <li><p>acesso 2</p></li>
+                                            <li><p>acesso 3</p></li>
+                                            <li><p>acesso 4</p></li>
+                                            <li><p>acesso 5</p></li>
+                                            <li><p>acesso 6</p></li>
+                                        </ul>
+                            
+                                    
+                                    </section>
+                                </div>
+                            </div>
+            
+                        </div>
+                            
+                        <div id="myOverlay" class="overlay"></div>
+                    </div>
+                
+                </div>
 
-        </div>
+
+                <div>
+                    
+                    <div class="modal-box">
+                        <button class="modal-btn__open open-btn" id="">Historico</button>
+                    
+                        <!-- modal password-->
+                        <div id="myModal" class="modal modal-password__box">
+                            <div class="modal-content">
+            
+                                <span class="modal-btn__close close-modal"></span>
+            
+                                <div class="modal-box-content">
+                                    <h3>Historico de Alteração de Palavra-passe</h3>
+                                    
+                                    <section class="modal-box-section">
+                
+                                        <ul>
+                                            <li><p>acesso 1</p></li>
+                                            <li><p>acesso 2</p></li>
+                                            <li><p>acesso 3</p></li>
+                                            <li><p>acesso 4</p></li>
+                                            <li><p>acesso 5</p></li>
+                                            <li><p>acesso 6</p></li>
+                                        </ul>
+                            
+                                    
+                                    </section>
+                                </div>
+                            </div>
+            
+                        </div>
+                            
+                        <div id="myOverlay" class="overlay"></div>
+                    </div>
+
+                </div>
+
+
+                <div>
+                    
+                    <button type="submit"> Aceitar Evento</button>
+                </div>
+
+            </div>
 
             
            
@@ -181,4 +280,5 @@
 
     
 </body>
+<script src="js/modal.js"></script>
 </html>

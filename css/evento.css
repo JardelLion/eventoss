@@ -39,3 +39,22 @@
 
     }
 }
+
+.comprovativo {
+    margin: 0 1px;
+}
+.box-border:last-child {
+    align-items: center;
+}
+
+
+.open-btn {
+    text-align: center;
+    width: 106px;
+    height: 20px;
+   
+}
+
+form {
+    margin-bottom: 30px;
+}
